@@ -6,8 +6,8 @@ import Navbar from './nav';
 function App() {
   return (
     <div className="App">
-    <Navbar />
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route exact path="/" component={Home} />
       </Routes>

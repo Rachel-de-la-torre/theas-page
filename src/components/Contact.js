@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div>
+    <div className='infopage'>
     <h1>
     You can reach me at this number
     </h1>

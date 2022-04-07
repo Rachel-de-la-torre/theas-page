@@ -3,18 +3,22 @@ import { Link } from 'react-router-dom'
 
 export default function nav() {
   return (
-    <div>
-        <nav>
-            <Link classname='homelink' to='/'>
+    <div className='nav'>
+        <div className='homelink'>
+        <Link to='/'>
                 Home
-            </Link> 
-            <Link classname='aboutlink' to="About">
+        </Link> 
+        </div>
+        <div className='aboutlink'>
+        <Link to="About">
                 About
-            </Link>
-            <Link classname='contactlink' to="Contact">
+        </Link>
+        </div> 
+        <div className='contactlink' >
+        <Link to="Contact">
                 Contact
-            </Link>
-        </nav>
+        </Link>
+        </div>      
     </div>
   )
 }

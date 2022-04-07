@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div>
+    <div className='infopage'>
     <h1>
     Hello, my name is Thea Hope. 
     </h1>

@@ -79,7 +79,7 @@ const Wave = () => {
   
 const Scene = () => {
   return (
-  <Canvas camera={{ fov: 5, position: [0, 0, 5] }}>
+  <Canvas camera={{ fov: 6, position: [0, 0, 5] }}>
     <Suspense fallback={null}>
       <Wave />
     </Suspense>
@@ -89,7 +89,7 @@ const Scene = () => {
 
 export default function Home() {
   return (
-    <div>   
+    <div className="Scene1">   
        <Scene />
     </div>
   )

@@ -5,12 +5,15 @@
 }
 
 .App-header {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  margin: 20%;
   font-size: calc(10px + 2vmin);
-  /* color: white; */
+  /* position: absolute;  */
+  right: 0%;
+  top: 0%;
 }
 
 
@@ -62,4 +65,19 @@ h1{
 
 .infopage{
   top: -100%;
+}
+
+/* three js */
+
+*{
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

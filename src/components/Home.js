@@ -90,13 +90,7 @@ const Scene = () => {
 export default function Home() {
   return (
     <div>   
-      <h1>
-      I AM SCENE
-      </h1>
        <Scene />
-       <h1>
-       I AM HOME 
-       </h1>
     </div>
   )
 }
